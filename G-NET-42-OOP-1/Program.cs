@@ -8,6 +8,21 @@
     {
         public string Name;
     }
+    class Student
+    {
+        public string Name;      // Accessible everywhere
+        private int Age;         // Only accessible inside this class
+
+        public void SetAge(int age)
+        {
+            Age = age;
+        }
+
+        public int GetAge()
+        {
+            return Age;
+        }
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -31,6 +46,18 @@
             s2.Name = "Goumaa";
 
             Console.WriteLine(s1.Name); // Output: Fayrouz
+            #endregion
+            #region Q2
+
+            Student s = new Student();
+
+            s.Name = "Fayrouz";   // Allowed
+                                  // s.Age = 20;        // ERROR (private)
+
+            s.SetAge(20);         // Correct way
+
+            Console.WriteLine(s.Name);
+            Console.WriteLine(s.GetAge());
             #endregion
 
         }
