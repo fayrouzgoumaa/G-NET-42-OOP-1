@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Numerics;
 using System.Runtime.Intrinsics.X86;
 
 namespace G_NET_42_OOP_1
@@ -68,6 +69,13 @@ namespace G_NET_42_OOP_1
             //Build it
             //Add reference to another project
             //Use the classes normally
+            #endregion
+            #region Q4
+            //A Class Library is a project that contains reusable classes and methods compiled into a.dll file that can be used by other projects.
+            //Why We Use Class Libraries
+            //    Code Reusability
+            //    Separation of Concerns
+            //    Maintainability
             #endregion
         }
     }
