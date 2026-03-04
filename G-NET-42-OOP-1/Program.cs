@@ -1,4 +1,7 @@
-﻿namespace G_NET_42_OOP_1
+﻿using System.ComponentModel;
+using System.Runtime.Intrinsics.X86;
+
+namespace G_NET_42_OOP_1
 {
     class PersonClass
     {
@@ -59,7 +62,13 @@
             Console.WriteLine(s.Name);
             Console.WriteLine(s.GetAge());
             #endregion
-
+            #region Q3
+            //1-Create it
+            //Write your classes
+            //Build it
+            //Add reference to another project
+            //Use the classes normally
+            #endregion
         }
     }
 }
